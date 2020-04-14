@@ -1,26 +1,25 @@
 {
-  "name": "test",
+  "name": "vstest",
   "version": "0.1.0",
-  "canonical": "http://example.org/ig/test",
-  "url": "http://example.org/ig/test",
-  "title": "Test Implementation Guide",
-  "description": "An example of how FSH can be used to create an IG",
+  "canonical": "http://fhir.b12x.org/ig/vstest",
+  "url": "http://fhir.b12x.org/ig/vstest",
+  "title": "Testing Implementation Guide",
+  "description": "Testing how FSH can be used to create an IG",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
-    "hl7.fhir.us.core": "3.1.0",
-    "hl7.fhir.uv.genomics-reporting": "1.0.0"
+    "hl7.fhir.us.core": "3.1.0"
   },
   "keywords": [
     "FSH",
     "testing"
   ],
   "language": "en",
-  "author": "James Tuna",
+  "author": "Bob Milius",
   "maintainers": [
     {
-      "name": "Bill Cod",
-      "email": "mailto:cod@reef.gov"
+      "name": "Bob Milius",
+      "email": "mailto:bmilius@nmdp.org"
     }
   ],
-  "license": "CC0-1.0"
+  "license": "Apache-2.0"
 }
